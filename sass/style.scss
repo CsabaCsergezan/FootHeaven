@@ -1,0 +1,103 @@
+@import "/home/csaba/node_modules/bootstrap/scss/bootstrap.scss";
+
+body {
+	.table-hover-cells > tbody > tr > td:hover {
+  		background-color: #f5f5f5;
+	}
+
+
+	#cart_pay {
+		margin-left: 0px;
+		#pay_button {
+			margin-left: 10px;
+			width: 55px;
+			height: 33px;
+		}
+		#pay_button:hover {
+			background-color: #909090;
+		}
+	}
+
+	.prod_creat_edit, .user_creat_edit, .login_registration {
+			width: 400px;
+			height: 450px;
+			margin: 0 auto;
+			h2, form {
+				text-align: center;
+			}
+	}
+
+
+	#container_carousel {
+		width: 100%;
+		height: 500px;
+
+  		border-radius: 10px;
+		margin: 0 auto;
+		position: relative;
+  		background-color: #f7f7f7;
+
+		img {
+			width: 800px;
+			height: 400px;
+			border-radius: 5px;
+			position: relative;
+  			margin-left: 280px;
+  			margin-top: 50px;
+  		}
+
+  		.btn {
+			position: absolute;
+			width: 30px;
+			height: 30px;
+			border: none;
+			border-radius: 50%;
+			top: 0px;
+			background: #8A8A8A;
+			color: white;
+			font-size: 20px;
+			opacity: 0.5;
+		}
+
+		#btn1:hover {
+			box-shadow: 10px 0px 20px 0px black;
+		}
+
+		#btn2:hover {
+			box-shadow: -10px 0px 20px 0px black;
+		}
+
+		#btn2 {
+			position: relative;
+			float: right;
+	  		margin-right: 590px;
+	  		margin-top: 455px;
+	  		padding-top: 2px;
+	  		padding-left: 8px;
+		}
+
+		#btn1 {
+  			margin-left: 590px;
+  			margin-top: 455px;
+  			padding-left: 6px;
+  			padding-top: 2px;
+		}
+	}
+
+	#contact {
+		margin-left: 10px;
+		p {
+			margin-left:30px;
+		}
+	}
+
+	hr {
+		border: 0;
+		width: 900px;
+		height: 1px;
+		background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+		background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+		background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+		background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+	}
+}
